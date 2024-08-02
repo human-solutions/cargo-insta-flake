@@ -7,7 +7,7 @@
 
   outputs = { self, nixpkgs }: 
     let
-      name = "cargo-insta";
+      name = "cargo-insta-flake";
       version = "1.39.0";
 
       packages = {
